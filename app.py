@@ -51,6 +51,7 @@ firestore_client = firestore.client()
 
 app = Flask(__name__, static_folder='public')
 CORS(app)
+init_db()
 
 @app.route('/admin-coupons.html')
 def admin_coupons_page():
