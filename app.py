@@ -1767,5 +1767,5 @@ def update_shipping_rate():
 if __name__ == '__main__':
     print("Starting Flask server...")
     print(f"E-commerce website running on {PUBLIC_APP_URL or 'http://localhost:5000'}")
-            init_db()
+        init_db()
     app.run(debug=True, port=5000)
