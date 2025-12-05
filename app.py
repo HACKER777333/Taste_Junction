@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, send_from_directory, redirect
 from flask_cors import CORS
-import sqlite3
+import pymysql
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
